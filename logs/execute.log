@@ -1,0 +1,74 @@
+05/22/2023 03:29:26 AM 
+当前被测合约: PrivateDepositLog(detecting gasless send)
+05/22/2023 03:29:26 AM 
+该合约没有fallback函数，所以不会有gasless send漏洞
+
+05/22/2023 03:29:26 AM 
+当前被测合约: PrivateDepositLog(detecting reentrancy)
+05/22/2023 03:29:26 AM 
+不能向被测合约转账，不含reentrancy漏洞
+05/22/2023 03:29:26 AM 
+当前被测合约: NumberBoard(detecting gasless send)
+05/22/2023 03:29:26 AM 
+send from 0xDEa6489012A3a4e8df7a3f22cbcB47bf2886c7aD to 0xd021f04D9c95c072Db0a1553cBC70BB52FE0f7ec
+
+05/22/2023 03:29:26 AM 
+存在gasless send漏洞
+send方法的msg.value: 1Wei
+
+
+05/22/2023 03:29:26 AM 
+当前被测合约: NumberBoard(detecting reentrancy)
+05/22/2023 03:29:26 AM 
+function name: placeNewBid
+param_list: ['uint256']
+payable: True
+function signature: placeNewBid(uint256)
+function selector: 0x81086763
+
+05/22/2023 03:29:26 AM 
+执行函数: placeNewBid(1e+18,)
+05/22/2023 03:29:26 AM 
+function name: acceptBuyNowOffer
+param_list: ['uint256']
+payable: True
+function signature: acceptBuyNowOffer(uint256)
+function selector: 0xc7daceb1
+
+05/22/2023 03:29:26 AM 
+执行函数: acceptBuyNowOffer(1e+18,)
+05/22/2023 03:29:26 AM 
+不能向被测合约转账，不含reentrancy漏洞
+05/22/2023 03:29:26 AM 
+当前被测合约: Fermat(detecting gasless send)
+05/22/2023 03:29:26 AM 
+send from 0xDEa6489012A3a4e8df7a3f22cbcB47bf2886c7aD to 0xbB6a855e101F7395072F44A7B191a9E39401aCd5
+
+05/22/2023 03:29:26 AM 
+存在gasless send漏洞
+send方法的msg.value: 1Wei
+
+
+05/22/2023 03:29:26 AM 
+当前被测合约: Fermat(detecting reentrancy)
+05/22/2023 03:29:26 AM 
+function name: addBalance
+param_list: []
+payable: True
+function signature: addBalance()
+function selector: 0xb163cc38
+
+05/22/2023 03:29:26 AM 
+执行函数: addBalance()
+05/22/2023 03:29:27 AM 
+function name: withdraw
+param_list: []
+payable: False
+function signature: withdraw()
+function selector: 0x3ccfd60b
+
+05/22/2023 03:29:27 AM 
+执行函数: withdraw()
+05/22/2023 03:29:27 AM 
+表示函数调用链的嵌套列表:
+None

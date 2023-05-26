@@ -1,0 +1,7 @@
+reports:
+  exclude_contracts:
+    - SafeMath
+
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
