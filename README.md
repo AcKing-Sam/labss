@@ -1,2 +1,2 @@
 # labss
-undergraduate graduation project in HIT
+Undergraduate graduation project in HIT
